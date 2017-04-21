@@ -1,22 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <title>GEK2050 Individual Project</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <title>GEK2050 - Digital Humanities In Arts Research</title>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <h1>GEK2050 Individual Project</h1>
-    </div>
-  </body>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="css/agency.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Digital Humanities In Arts Research</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#introduction">Introduction</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#books">Books</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#analysis">Analysis</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#conclusion">Conclusion</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#reference">Reference</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Individual Project - Textual Analysis</div>
+                <hr>
+                <div class="intro-heading">The Harry Potter Series</div>
+                <a href="#introduction" class="page-scroll btn btn-xl"><i class="fa fa-chevron-down"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="introduction">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Introduction</h2>
+                    <hr>
+                    <h3 class="section-subheading text-muted">
+                      Harry Potter has been one of the most popular book series of all time, which easily gained worldwide audiences to the blockbuster movies
+                      and books. The author J.K. Rowling was extremely imaginative, to be able to build a fantasy-based theme but yet close to reality that we
+                      can relate. The amount of details in the entire series was intricate and mind-blowing. It was indeed very impressive that she was able to
+                      link all the books together, where every mystery has a deep reason and nothing goes unexplained.
+                    </h3>
+                    <h3 class="section-subheading text-muted">
+                      Being a story filled with magic and love, I personally thought that it was interesting to do a textual analysis on the word frequency of the
+                      locations, spells and character names. From this analysis, I hope to be able to draw a connection with each component and the nature of the
+                      progression of the storyline towards the last book. 
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Books Grid Section -->
+    <section id="books" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Books</h2>
+                    <hr>
+                    <h3 class="section-subheading text-muted">The full Harry Potter series. Click to view full text.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2 books-item">
+                    <a href="texts/book_1.txt" class="books-link">
+                        <div class="books-hover">
+                            <div class="books-hover-content">
+                                <i class="fa fa-file-text fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/books/hp_1.jpg" class="img-responsive img-book" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-2 books-item">
+                    <a href="texts/book_2.txt" class="books-link">
+                        <div class="books-hover">
+                            <div class="books-hover-content">
+                                <i class="fa fa-file-text fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/books/hp_2.jpg" class="img-responsive img-book" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-2 books-item">
+                    <a href="texts/book_3.txt" class="books-link">
+                        <div class="books-hover">
+                            <div class="books-hover-content">
+                                <i class="fa fa-file-text fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/books/hp_3.jpg" class="img-responsive img-book" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-2 books-item">
+                    <a href="texts/book_4.txt" class="books-link">
+                        <div class="books-hover">
+                            <div class="books-hover-content">
+                                <i class="fa fa-file-text fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/books/hp_4.jpg" class="img-responsive img-book" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-2 books-item">
+                    <a href="texts/book_5.txt" class="books-link">
+                        <div class="books-hover">
+                            <div class="books-hover-content">
+                                <i class="fa fa-file-text fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/books/hp_5.jpg" class="img-responsive img-book" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-2 books-item">
+                    <a href="texts/book_6.txt" class="books-link">
+                        <div class="books-hover">
+                            <div class="books-hover-content">
+                                <i class="fa fa-file-text fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/books/hp_6.jpg" class="img-responsive img-book" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Analysis Section -->
+    <section id="analysis">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Analysis</h2>
+                    <hr>
+                    <h3 class="section-topic">Total Word Counting</h2>
+                    <img src="img/charts/chart1.jpg" class="img-responsive center-block">
+                    <h3 class="section-subheading text-muted">
+                      At one glance of this chart, we can easily observe that starting from the fourth book, the length of the stories get significantly
+                      longer than the first three books. In fact, just by looking at the physical book size, this is an obvious observation.
+                    </h3>
+                    <h3 class="section-subheading text-muted">
+                      From my point of view, this could be attributed to the reason that Rowling can continue to introduce new and deep darker themes that 
+                      the series was moving towards. Since the first three books did a wonderful job in establishing the context with solid foundations of 
+                      the plot and characters, Rowling had the freedom to explore wildly and give us the mind-blowing twists and imagination in later books.
+                    </h3>
+                    <h3 class="section-subheading text-muted">
+                      There is also an increase in the number of unique words, which can suggest to us that as the plot thickens, the writing becomes more
+                      sophisticated and there is a need to introduce new words to accomodate the enchating story. Since this is a fantasy-based story, 
+                      it is natural that there will be new words that we have never heard of. Therefore, some of these new words could be character names,
+                      locations, spells and items.
+                    </h3>
+                    <hr>
+                    <h3 class="section-topic">Location Counting</h2>
+                    <img src="img/charts/chart2.jpg" class="img-responsive center-block">
+                    <h3 class="section-subheading text-muted">
+                      Hogwarts is overall the most mentioned location in the series as it is the place where most of the events happen across the books.
+                    </h3>
+                    <h3 class="section-subheading text-muted">
+                      There is also a sudden rise in the mentioning of the Ministry of Magic from the fourth book onwards. The peak was in the Order of 
+                      the Phoenix where Ministry of Magic representative Umbridge takes over Hogwards, and this is the period where the Ministry of Magic 
+                      is playing a huge involvement in the world of magic since the rebirth of Voldemort in the Goblet of Fire. 
+                    </h3>
+                    <h3 class="section-subheading text-muted">
+                      Grimmauld Place, the headquarters for the Order, was first introduced in the Order of the Phoenix and has been a place of importance
+                      for hiding and planning against the Dark Lord's return.
+                    </h3>
+                    <h3 class="section-subheading text-muted">
+                      Azkaban was most often mentioned in the Prisoner of Azkaban and has been used very frequently for the rest of the books, as people are
+                      constantly being sent in and breaking out of the prison. 
+                    </h3>
+                    <hr>
+                    <h3 class="section-topic">Spell Counting</h2>
+                    <img src="img/charts/chart3.jpg" class="img-responsive center-block">
+                    <h3 class="section-subheading text-muted">
+                      It is clear from the chart that Expecto Patronum is the most casted spell across all the books. More particularly in the Prisoner of Azkaban,
+                      which is not surprising due to the introduction of the Dementors, where the only spell that one can use to protect against them is the
+                      Patronus Charm.
+                    </h3>
+                    <h3 class="section-subheading text-muted">
+                      We can also observe that the spell Accio was getting increasingly frequent from the fourth book onwards. Accio is the spell used to summon an
+                      object at hand, which is really convenient to bring things towards you. In its usage regards to the plot, there is a trend that it has been used
+                      in times of trouble and difficulty where a character needs to retrieve an object quickly. This can also tell us that the magical world has become
+                      darker and more dangerous since Voldemort's ressurection in the Goblet of Fire, which give rise to a greater need and usage of this spell during
+                      emergencies.
+                    </h3>
+                    <hr>
+                    <h3 class="section-topic">Curse Counting</h2>
+                    <img src="img/charts/chart4.jpg" class="img-responsive center-block">
+                    <h3 class="section-subheading text-muted">
+                      No one can forget the three Unforgivable Curses that made their way swiftly into the series starting from the Goblet of Fire. Their usage peaked
+                      at the initial introduction but had a downward trend after that, before peaking again in the Deathly Hallows. The reason for the downward trend
+                      could be due to the nature of the fifth and sixth book where it involves a lot of mystery, with very little battle action. However, the Deathly 
+                      Hallows involved a lot of fighting and thus not surprising to see the excess usage of these curse spells, especially the killing spell Avada Kedavra.
+                    </h3>
+                    <h3 class="section-subheading text-muted">
+                      It can also be observed that the first three books were still relatively peaceful, where life in Hogwarts is safe and had happy endings. However,
+                      since the introduction of curse spells from the fourth book onwards, we can draw a connection that the world becomes darker and dangerous since the
+                      Dark Lord's return. This observation is parallel to the progression of the storyline.
+                    </h3>
+                    <h3 class="section-subheading text-muted">
+                      However, in most cases, casting of spells were not verbal (as seen from the movie adaption of the books). Therefore, the usage of these curse spells,
+                      especially the killing spell, is used abundantly to kill without a thought.
+                    </h3>
+                    <hr>
+                    <h3 class="section-topic">Counting Co-occurence of Harry with others</h2>
+                    <img src="img/charts/chart5.jpg" class="img-responsive center-block">
+                    <h3 class="section-subheading text-muted">
+                      Since Harry Potter is the main character of this series, it will be interesting to look at his relationship with other characters. This is made possible
+                      using the 'Find Co-occuring Patterns' feature in TaporWare to find the occurrences of a specific character within five words, before and after the occurrence 
+                      of Harry in the books.
+                    </h3>
+                    <h3 class="section-subheading text-muted">
+                      With Ron and Hermione as the main supporting characters to Harry Potter, it is no doubt that they will have the highest occurrence of being found in the
+                      same text sentence as Harry. We can easily deduce that Harry has the strongest relationship with these characters.
+                    </h3>
+                    <h3 class="section-subheading text-muted">
+                      Another main character Dumbledore, the headmaster of Hogwarts, also has a close relationship with Harry especially in the Half-Blood Prince where they
+                      were on their mission to destory a Horcrux.
+                    </h3>
+                    <h3 class="section-subheading text-muted">
+                      This method of analysing relationships of characters is not very accurate because it does not take into account emotions and depth of conversation between
+                      the characters. For example, even though Dumbledore does not appear often in the same text sentence as Harry, we all know that Dumbledore's role in the
+                      story is very crucial and he has always been the key character in helping Harry overcome difficulties, and eventually destroying Voldemort. Therefore,
+                      just by simply counting the co-occurence of other characters with Harry in the same text sentence, is not strong enough of a result to determine their
+                      relationships.
+                    </h3>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conclusion Section -->
+    <section id="conclusion" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Conclusion</h2>
+                    <hr>
+                    <h3 class="section-subheading text-muted">
+                      The Harry Potter series is truly a rich and deep story with a vast variety of words that can be analysed in many different ways. The above analysis are
+                      just some of the methods that we can use to study the books. However, the above analysis are enough to tell us that things start to go bad starting from 
+                      the Goblet of Fire, which is the episode where Voldemort finally returns to rule the world with his dark magic and minions. 
+                    </h3>
+                    <h3 class="section-subheading text-muted">
+                      In future, textual analysis of the Harry Potter series may become more interesting with the recent introduction of the Fantastic Beasts series, which
+                      sets itself decades before Harry Potter was born. Since only the first episode of this five saga series was released recently, there is still a lot of gaps
+                      and holes that are difficult to fill and see the link to the Harry Potter series. Perhaps as the series unfold over the next few years, textual analysis will
+                      have its glory in drawing connections between the two series in a literal aspect.
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reference Section -->
+    <section id="reference">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section-heading text-center">Reference</h2>
+                    <hr>
+                    <h3 class="section-subheading text-muted">Farooqui, Z. (2016). Harry Potter Text Analysis – Becoming a Data Analyst – Medium. [online] Medium. Available at: <a href="https://medium.com/zareen-farooqui/harry-potter-text-analysis-4d89ffe59d5b">https://medium.com/zareen-farooqui/harry-potter-text-analysis-4d89ffe59d5b</a> [Accessed 19 Apr. 2017].</h3>
+                    <h3 class="section-subheading text-muted">Literary Analysis. (2010). Literature Commentary: Harry Potter Series. [online] Available at: <a href="https://literaryanalysis.net/2010/12/11/literature-commentary-harry-potter-series/">https://literaryanalysis.net/2010/12/11/literature-commentary-harry-potter-series/</a> [Accessed 19 Apr. 2017].</h3>
+                    <h3 class="section-subheading text-muted">Minoso, I. (2016). A textual analysis of Harry Potter by an amateur data analyst. [online] Medium. Available at: <a href="https://medium.com/@ianminoso/a-textual-analysis-of-harry-potter-by-an-amateur-data-analyst-6f02c09617e0">https://medium.com/@ianminoso/a-textual-analysis-of-harry-potter-by-an-amateur-data-analyst-6f02c09617e0</a> [Accessed 19 Apr. 2017].</h3>
+                    <h3 class="section-subheading text-muted">Anon, (n.d.). [image] Available at: <a href="http://i.imgur.com/CMWTqJx.jpg?1">http://i.imgur.com/CMWTqJx.jpg?1</a> [Accessed 19 Apr. 2017].</h3>
+                    <h3 class="section-subheading text-muted">Anon, (n.d.). [image] Available at: <a href="http://d.ibtimes.co.uk/en/full/1541432/harry-potter-philosophers-stone.jpg">http://d.ibtimes.co.uk/en/full/1541432/harry-potter-philosophers-stone.jpg</a> [Accessed 19 Apr. 2017].</h3>
+                    <h3 class="section-subheading text-muted">Anon, (n.d.). [image] Available at: <a href="http://vignette1.wikia.nocookie.net/harrypotter/images/1/17/Chamberofsecrets.jpg/revision/latest?cb=20150208225435">http://vignette1.wikia.nocookie.net/harrypotter/images/1/17/Chamberofsecrets.jpg/revision/latest?cb=20150208225435</a> [Accessed 19 Apr. 2017].</h3>
+                    <h3 class="section-subheading text-muted">Anon, (n.d.). [image] Available at: <a href="https://thetab.com/uploads/2016/02/hp3.jpg">https://thetab.com/uploads/2016/02/hp3.jpg</a> [Accessed 19 Apr. 2017].</h3>
+                    <h3 class="section-subheading text-muted">Anon, (n.d.). [image] Available at: <a href="https://pencanada.ca/wp-content/uploads/2014/08/gof-uk-kids-jacket-art.jpg">https://pencanada.ca/wp-content/uploads/2014/08/gof-uk-kids-jacket-art.jpg</a> [Accessed 19 Apr. 2017].</h3>
+                    <h3 class="section-subheading text-muted">Anon, (n.d.). [image] Available at: <a href="http://vignette1.wikia.nocookie.net/harrypotter/images/a/ae/Ootp_UK_Children.jpg/revision/latest?cb=20150208231215">http://vignette1.wikia.nocookie.net/harrypotter/images/a/ae/Ootp_UK_Children.jpg/revision/latest?cb=20150208231215</a> [Accessed 19 Apr. 2017].</h3>
+                    <h3 class="section-subheading text-muted">Anon, (n.d.). [image] Available at: <a href="http://vignette4.wikia.nocookie.net/harrypotter/images/f/f0/Harry_Potter_and_the_Half-Blood_Prince.jpg/revision/latest?cb=20150208231310">http://vignette4.wikia.nocookie.net/harrypotter/images/f/f0/Harry_Potter_and_the_Half-Blood_Prince.jpg/revision/latest?cb=20150208231310</a> [Accessed 19 Apr. 2017].</h3>
+                    <h3 class="section-subheading text-muted">Anon, (n.d.). [image] Available at: <a href="http://vignette2.wikia.nocookie.net/harrypotter/images/5/59/DeathlyHallowsCover.jpg/revision/latest?cb=20150208231351">http://vignette2.wikia.nocookie.net/harrypotter/images/5/59/DeathlyHallowsCover.jpg/revision/latest?cb=20150208231351</a> [Accessed 19 Apr. 2017].</h3>
+                    <h3 class="section-subheading text-muted">Textual analysis Tool from <a href="http://taporware.ualberta.ca/">TaporWare</a></h3>
+                    <h3 class="section-subheading text-muted">Bootstrap template from <a href="http://startbootstrap.com">StartBootstrap</a></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span>Tay Shuan Siang &sdot; A0108543J &sdot; Tut E1</span>
+                </div>
+                <div class="col-md-push-4 col-md-4">
+                  <span>GEK2050 - Digital Humanities In Arts Research</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+
+</body>
+
 </html>
