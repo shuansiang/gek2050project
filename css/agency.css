@@ -393,6 +393,9 @@ section h3.section-subheading {
 #conclusion hr {
   border-bottom: 1px solid #777777;
 }
+#reference a {
+  word-wrap: break-word;
+}
 footer {
   padding: 25px 0;
   text-align: center;
