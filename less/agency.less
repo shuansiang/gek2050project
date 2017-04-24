@@ -331,86 +331,6 @@ section {
     }
 }
 
-@media(min-width:768px) {
-    .timeline {
-        &:before {
-            left: 50%;
-        }
-        > li {
-            margin-bottom: 100px;
-            min-height: 100px;
-            .timeline-panel {
-                width: 41%;
-                float: left;
-                padding: 0 20px 20px 30px;
-                text-align: right;
-            }
-            .timeline-image {
-                width: 100px;
-                height: 100px;
-                left: 50%;
-                margin-left: -50px;
-                h4 {
-                    font-size: 13px;
-                    margin-top: 16px;
-                    line-height: 18px;
-                }
-            }
-            &.timeline-inverted > .timeline-panel {
-                float: right;
-                text-align: left;
-                padding: 0 30px 20px 20px;
-            }
-        }
-    }
-}
-
-@media(min-width:992px) {
-    .timeline {
-        > li {
-            min-height: 150px;
-            .timeline-panel {
-                padding: 0 20px 20px;
-            }
-            .timeline-image {
-                width: 150px;
-                height: 150px;
-                margin-left: -75px;
-                h4 {
-                    font-size: 18px;
-                    margin-top: 30px;
-                    line-height: 26px;
-                }
-            }
-            &.timeline-inverted > .timeline-panel {
-                padding: 0 20px 20px;
-            }
-        }
-    }
-}
-
-@media(min-width:1200px) {
-    .timeline {
-        > li {
-            min-height: 170px;
-            .timeline-panel {
-                padding: 0 20px 20px 100px;
-            }
-            .timeline-image {
-                width: 170px;
-                height: 170px;
-                margin-left: -85px;
-                h4 {
-                    margin-top: 40px;
-                }
-            }
-            &.timeline-inverted > .timeline-panel {
-                padding: 0 100px 20px 20px;
-            }
-        }
-    }
-}
-
 // Analysis Section
 #analysis {
     .section-topic {
@@ -423,6 +343,15 @@ section {
         text-align: left;
     }
 
+}
+
+@media(max-width:1200px) {
+    #analysis {
+        .section-subheading {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
 }
 
 #conclusion {
